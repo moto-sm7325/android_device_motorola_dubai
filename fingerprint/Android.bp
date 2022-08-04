@@ -1,5 +1,5 @@
 //
-// Copyright (C) 2017-2018 The LineageOS Project
+// Copyright (C) 2017-2022 The LineageOS Project
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -13,9 +13,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 cc_binary {
-    name: "android.hardware.biometrics.fingerprint@2.1-service.berlin",
-    vintf_fragments: ["android.hardware.biometrics.fingerprint@2.1-service.berlin.xml"],
-    init_rc: ["android.hardware.biometrics.fingerprint@2.1-service.berlin.rc"],
+    name: "android.hardware.biometrics.fingerprint@2.1-service.dubai",
+    vintf_fragments: ["android.hardware.biometrics.fingerprint@2.1-service.dubai.xml"],
+    init_rc: ["android.hardware.biometrics.fingerprint@2.1-service.dubai.rc"],
     defaults: ["hidl_defaults"],
     relative_install_path: "hw",
     srcs: ["service.cpp", "BiometricsFingerprint.cpp"],
