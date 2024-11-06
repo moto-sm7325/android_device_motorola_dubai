@@ -55,5 +55,7 @@ module = ExtractUtilsModule(
 )
 
 if __name__ == '__main__':
-    utils = ExtractUtils.device_with_common(module, 'sm7325-common', module.vendor)
+    utils = ExtractUtils.device_with_common(
+        module, 'sm7325-common', module.vendor
+    )
     utils.run()
