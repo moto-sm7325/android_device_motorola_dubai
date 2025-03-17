@@ -12,7 +12,7 @@ include device/motorola/sm7325-common/BoardConfigCommon.mk
 TARGET_BOOTLOADER_BOARD_NAME := dubai
 
 # Fingerprint
-SOONG_CONFIG_qtidisplay_udfps := true
+TARGET_USES_FOD_ZPOS := true
 
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/device_framework_matrix.xml
