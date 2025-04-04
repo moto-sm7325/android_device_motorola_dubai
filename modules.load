@@ -84,7 +84,6 @@ utags.ko
 mmi_info.ko
 mmi_annotate.ko
 sensors_class.ko
-watchdogtest.ko
 exfat.ko
 bm_adsp_ulog.ko
 mmi_charger.ko
@@ -101,7 +100,6 @@ cci_intf.ko
 st21nfc.ko
 nfc_i2c.ko
 sx937x_sar.ko
-moto_f_usbnet.ko
 touchscreen_mmi.ko
 goodix_brl_mmi.ko
 mmi_sys_temp.ko
