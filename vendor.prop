@@ -1,3 +1,6 @@
+# Audio
+persist.vendor.audio.speaker.stereo=true
+
 # Camera
 persist.vendor.camera.physical.num=4
 
