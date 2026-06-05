@@ -22,7 +22,7 @@ on early-init
 
 on fs
     # egis fod ko
-    insmod /vendor/lib/modules/rbs_fps_mmi.ko
+    insmod /vendor/lib/modules/rbs_fod_mmi.ko
 
 on post-fs
     # Sensors

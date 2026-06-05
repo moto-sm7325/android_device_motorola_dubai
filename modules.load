@@ -103,6 +103,6 @@ sx937x_sar.ko
 touchscreen_mmi.ko
 goodix_brl_mmi.ko
 mmi_sys_temp.ko
-rbs_fps_mmi.ko
+rbs_fod_mmi.ko
 mmi_info.ko
 mmi_annotate.ko
